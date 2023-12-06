@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    width: 100%;
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-family: 'Permanent Marker', cursive;
+    box-shadow: 0px 1px 8px black;
+}
+
+#objetivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.objetivo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 10px solid rgb(0, 0, 0);
+    background-color: rgb(238, 39, 39);
+    margin: 21px 0px;
+    width: 70%;
+    -webkit-border-radius: 20px 20px;
+    border-radius: 20px 20px;
+    color: white;
+}
+
+.objetivo-content-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    -webkit-border-radius: 20px 20px;
+    border-radius: 20px 20px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 600;
+}
+
+.objetivo-content img {
+    height: 230px;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-border-radius: 20px 20px;
+    border-radius: 20px 20px;
+}
+
+.objetivo-content img,
+.objetivo-content h1,
+.objetivo-content p {
+    margin: 15px;
+}
+
+#conquistas-text {
+    font-size: 9vmax;
+    margin: 15px 20px;
+    background: #000000;
+    background: linear-gradient(to bottom right, #000000 0%, #8C0000 50%, #CF1512 81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#conquistas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 50px; 
+}
+
+#conquistas h2 {
+    text-align: center;
+    margin: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#conquistas-content {
+    width: 100%;
+}
+
+.conquistas-imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.conquistas-imagens img {
+    max-width: 305px;
+    max-height: 330px;
+    border: 13px solid white;
+    border-bottom: 50px solid white;
+    margin: 5px;
+    -webkit-box-shadow: 7px 7px 9px 0px rgba(0,0,0,0.6); 
+    box-shadow: 7px 7px 9px 0px rgba(0,0,0,0.6);
+}
+
+#depoimentos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding-bottom: 20px;
+}
+
+#depoimentos h1 {
+    text-align: center;
+    color: white;
+    font-size: 6vmax;
+}
+
+#depoimentos div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#depoimentos img {
+    max-width: 400px;
+    margin: 40px;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%), linear-gradient(90deg, rgb(255, 255, 255) 50%, transparent 50%), linear-gradient(0deg, rgb(255, 255, 255) 50%, transparent 50%), linear-gradient(0deg, rgb(255, 255, 255) 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    padding: 15px;
+    animation: border-dance 40s infinite linear;
+}
+
+@keyframes border-dance {
+    0% {
+        background-position: 0 0, 100% 100%, 0 100%, 100% 0;
+    }
+
+    100% {
+        background-position: 100% 0, 0 100%, 0 0, 100% 100%;
+    }
+}
+
+#imagem-juncao {
+    display: flex;
+}
+
+#imagem-juncao img {
+    max-width: 100%;
+}
+
+#locais {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 9, 9);
+    padding-top: 35px;
+}
+
+#locais h1 {
+    text-align: center;
+    font-size: 6vmax;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.locais-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.local {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: white;
+    margin: 10px 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.subtitle {
+    font-size: 1.3em;
+}
+
+.locais-content img {
+    max-width: 330px;
+    max-height: 350px;
+    margin: 10px;
+}
+
+#juncao2 {
+    display: flex;
+}
+
+#juncao2 img {
+    max-width: 100%;
+}
+
+.sensei {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.sensei-content {
+    margin: 10px;
+}
+
+.contatos {
+    margin-bottom: 30px;
+}
+
+.sensei img {
+    border: 5px solid black;
+    border-radius: 50%;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+.sensei-sobre {
+    font-size: large;
+}
+
+#sensei-links {
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.button:hover {
+    transition: 0.5s;
+    padding: 18px 43px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.whatsapp:hover {
+    background: rgb(0,175,90);
+    background: linear-gradient(180deg, rgba(0,175,90,1) 0%, rgba(0,144,84,1) 100%);}
+
+.instagram:hover {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.rodape {
+    background-color: rgb(25, 63, 63);
+}
+
+.infos-dev {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(143, 150, 150);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.infos-dev a,
+.infos-dev p {
+    margin: 5px;
+}
+
+.infos-dev img {
+    height: 20px;
+    width: auto;
+}
