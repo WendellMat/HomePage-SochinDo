@@ -335,7 +335,16 @@ header {
     .local {
         padding: 10px 0px 0px 0px;
     }
-    .noHoverMobile {
-        pointer-events: none;
+    .button:hover {
+        transition: none;
+        padding: 13px 35px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    .whatsapp:hover {
+        background: black;
+    }
+    .instagram:hover {
+        background: black;
     }
 }
