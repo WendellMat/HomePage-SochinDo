@@ -336,15 +336,7 @@ header {
     .local {
         padding: 10px 0px 0px 0px;
     }
-    .button:active {
-        background-color: black;
-        color: white;
-        text-decoration: none;
-        border: none;
-        border-radius: 10px;
-        padding: 15px 40px;
-        cursor: pointer;
-        font-size: 18px;
-        margin: 10px;
+    .noHoverMobile {
+        pointer-events: none;
     }
 }
