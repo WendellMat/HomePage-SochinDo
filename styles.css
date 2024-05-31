@@ -204,6 +204,7 @@ header {
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
+    max-width: min-content;
     background-color: white;
     margin: 10px 10px;
     border: 5px solid black;
@@ -212,7 +213,7 @@ header {
 }
 
 .subtitle {
-    font-size: 1.3em;
+    font-size: 1.5rem;
 }
 
 .imagens-local {
@@ -244,6 +245,11 @@ header {
 
 .sensei-content {
     margin: 10px;
+    font-size: 1.8rem;
+}
+
+.sensei-content h2 {
+    font-size: 1.7rem;
 }
 
 .contatos {
@@ -258,7 +264,7 @@ header {
 }
 
 .sensei-sobre {
-    font-size: large;
+    font-size: 1.25rem;
 }
 
 #sensei-links {
